@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(bg-1.jpg);
+    transition: .5s;
+}
+.menu-bar{
+    background: #5900ffc2;
+    text-align: center;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+}
+.menu-bar ul li{
+    width: 200px;
+    margin: 20px;
+    padding: 20px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color:rgb(255, 255, 255)
+}
+.menu-bar ul li a{
+    transition: color .25s ease;
+}
+.active, .menu-bar ul li:hover{
+    background: #e700fc;
+    border-radius: 10px;
+    transition: .8s;
+}
+.container {
+    width: 80%;
+    background-color: aliceblue;
+    margin: auto;
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;transform: translate(-50%,-50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+.center h1{
+    color: rgb(221, 88, 11);
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+.center h2{
+    color: #ffff;
+    font-size: 50px;
+    font-weight: bold;
+    width: 885px;
+    margin-top: 10px;
+    text-align: center;
+}
+.center .buttons{
+    margin: 35px 280px;
+}
+
+.buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background: rgb(250, 0, 196);
+    border: solid 1px rgb(135, 137, 139);
+    cursor: pointer;
+    outline: none;
+    border-radius: 25px;
+    transition: .8s;
+}
+
+.buttons button:hover{
+    background: rgb(117, 0, 212);
+}
